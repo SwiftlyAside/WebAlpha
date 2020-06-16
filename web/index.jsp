@@ -1,14 +1,9 @@
-<%--
-  User: iveci
-  Date: 2020-06-16
-  Time: 오후 4:58
---%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>OK</title>
   </head>
   <body>
-  $END$
+  잘 됐슴니다.
   </body>
 </html>
