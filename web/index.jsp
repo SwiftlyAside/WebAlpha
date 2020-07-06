@@ -24,9 +24,10 @@
     <!-- include summernote css/js -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
     <script src="${pageContext.request.contextPath}/js/index.js"></script>
 </head>
 <body>
-<textarea id="summernote">Yee</textarea>
+
 </body>
 </html>

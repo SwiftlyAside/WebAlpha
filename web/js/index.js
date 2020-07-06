@@ -1,3 +1,0 @@
-$(() => {
-  $('#summernote').summernote();
-})
