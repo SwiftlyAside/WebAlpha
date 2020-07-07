@@ -15,19 +15,47 @@
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
     <!-- include summernote css/js -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
     <script src="${pageContext.request.contextPath}/js/index.js"></script>
+    <style>
+        .sidebar-fixed {
+            padding: 0 1.5rem 1.5rem 0;
+        }
+    </style>
 </head>
 <body>
+<div class="container-fluid">
+    <header>
+        <!-- Sidebar -->
+        <div class="sidebar-fixed position-fixed">
+            <div class="list-group list-group-flush">
+                <a class="list-group-item active waves-effect" href="#">
+                    <i class="fas fa-chart-pie mr-3"></i>Dashboard
+                </a>
+                <a class="list-group-item list-group-item-action waves-effect" href="#">
+                    <i class="fas fa-user mr-3"></i>Profile</a>
+                <a class="list-group-item list-group-item-action waves-effect" href="#">
+                    <i class="fas fa-table mr-3"></i>Tables</a>
+                <a class="list-group-item list-group-item-action waves-effect" href="#">
+                    <i class="fas fa-map mr-3"></i>Maps</a>
+                <a class="list-group-item list-group-item-action waves-effect" href="#">
+                    <i class="fas fa-money-bill-alt mr-3"></i>Orders</a>
+            </div>
 
+        </div>
+        <!-- Sidebar -->
+    </header>
+</div>
 </body>
 </html>
