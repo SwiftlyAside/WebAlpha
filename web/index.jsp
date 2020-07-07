@@ -27,7 +27,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
-    <script src="${pageContext.request.contextPath}/js/index.js"></script>
     <style>
         .sidebar-fixed {
             padding: 0 1.5rem 1.5rem 0;
@@ -44,13 +43,13 @@
                     <i class="fas fa-chart-pie mr-3"></i>Dashboard
                 </a>
                 <a class="list-group-item list-group-item-action waves-effect" href="#">
-                    <i class="fas fa-user mr-3"></i>Profile</a>
+                    <i class="fas fa-user mr-3"></i>d</a>
                 <a class="list-group-item list-group-item-action waves-effect" href="#">
                     <i class="fas fa-table mr-3"></i>Tables</a>
                 <a class="list-group-item list-group-item-action waves-effect" href="#">
                     <i class="fas fa-map mr-3"></i>Maps</a>
                 <a class="list-group-item list-group-item-action waves-effect" href="#">
-                    <i class="fas fa-money-bill-alt mr-3"></i>Orders</a>
+                    <i class="fas fa-money-bill-alt mr-3"></i>모아보기</a>
             </div>
 
         </div>
